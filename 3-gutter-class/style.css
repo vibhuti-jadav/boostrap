@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav>ul>li{
+    color: white;
+    font-style: bold;
+    padding: 10px;
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+}

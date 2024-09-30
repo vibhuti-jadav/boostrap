@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    
+        <header>
+            <nav class="navbar navbar-expand-lg border navbar-dark bg-dark shadow">
+                <div class="container ">
+                    <a href="" class="navbar-brand fs-3">LOGO</a>
+
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                        <div class="navbar-collapse collapse " id="navbar">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-traget="#first-dropdown" data-bs-auto-close="outside" >services</a>
+                            <ul class="dropdown-menu " id="first-dropdown">
+                                <li><a href="" class="dropdown-item">help</a></li>
+                                <li><a href="" class="dropdown-item">qustion</a></li>
+                                <li><a href="" class="dropdown-item">Need</a></li>
+                                <li class=" dropdown dropend">
+                                    <a class=" dropdown-item dropdown-toggle " data-bs-toggle="dropdown" data-bs-traget="#second-dropdown" >contact</a>
+                                    <ul class="dropdown-menu" id="second-dropdown">
+                                        <li ><a href="" class="dropdown-item">staff</a></li>
+                                        <li ><a href="" class="dropdown-item">manager</a></li>
+                                        <li ><a href="" class="dropdown-item">delivery</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                  
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
+        </header> 
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
